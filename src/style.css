@@ -1,3 +1,7 @@
 h1 {
   color: rgb(137, 149, 149);
 }
+
+a {
+  text-decoration: none;
+}
