@@ -55,5 +55,7 @@ function handleSubmit(event) {
   search(cityInputElement.value);
 }
 
+search("Oslo");
+
 let form = document.querySelector("#search-form");
 form.addEventListener("submit", handleSubmit);
