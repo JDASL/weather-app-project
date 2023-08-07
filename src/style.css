@@ -17,8 +17,26 @@ body {
   margin-bottom: 20px;
 }
 
+.weather-temperature img {
+  margin-right: 20px;
+  float: left;
+  height: 64px;
+  width: 64px;
+}
+
+.weather-temperature strong {
+  color: #202124;
+  font-size: 50px;
+  line-height: 1;
+  font-weight: 400;
+}
+.weather-temperature .units {
+  position: relative;
+  font-size: 13px;
+}
+
 h1 {
-  color: rgb(137, 149, 149);
+  color: #202124;
   font-size: 24px;
   font-weight: 400;
   line-height: 28px;
@@ -33,7 +51,7 @@ li {
   list-style: none;
   margin: 0;
   padding: 0;
-  color: rgb(137, 149, 149);
+  color: #202124;
   font-size: 11px;
   font-weight: 100;
   line-height: 19px;
