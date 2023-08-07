@@ -62,4 +62,9 @@ li:first-letter {
 
 a {
   text-decoration: none;
+  cursor: default;
+}
+
+.weather-temperature .active:hover {
+  text-decoration: none;
 }
